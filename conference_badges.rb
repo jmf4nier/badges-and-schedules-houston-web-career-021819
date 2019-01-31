@@ -8,7 +8,6 @@ end
 
 def batch_badge_creater(name)
   name.collect {|name|  "Hello my name is #{name}."}
-  
 end
 batch_badge_creater(names)
 
