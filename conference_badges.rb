@@ -6,10 +6,10 @@ def badge_maker(name)
 end
 #badge_maker("jason")
 
-def batch_badge_creater(name)
+def batch_badge_creator(name)
   name.collect {|name|  "Hello my name is #{name}."}
 end
-#batch_badge_creater(names)
+#batch_badge_creator(names)
 
 def assign_rooms(name)
   name.collect.with_index(1) do |name, index|
