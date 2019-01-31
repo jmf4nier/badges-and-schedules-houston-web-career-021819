@@ -1,8 +1,8 @@
-names = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
+names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 
 def badge_maker(name)
-  "Hello, my name is #{name.capitalize}."
+  puts "Hello, my name is #{name.capitalize}."
 end
 badge_maker("Jason")
 
