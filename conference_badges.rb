@@ -9,8 +9,10 @@ end
 def batch_badge_creater(name)
   name.collect {|name|  "Hello my name is #{name}."}
 end
-batch_badge_creater(names)
+#batch_badge_creater(names)
 
-def assign_rooms
-  
+def assign_rooms(name)
+  name.collect.with_index do |name, index|
+    "Hello, #{name}! You'll be assigned to room #{index}!"
 end
+assign_rooms(names)
