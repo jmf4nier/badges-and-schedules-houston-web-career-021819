@@ -12,7 +12,7 @@ end
 #batch_badge_creater(names)
 
 def assign_rooms(name)
-  name.collect.with_index do |name, index|
+  name.collect.with_index(1) do |name, index|
     puts "Hello, #{name}! You'll be assigned to room #{index}!"
   end
 end
