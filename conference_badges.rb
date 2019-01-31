@@ -7,7 +7,7 @@ end
 #badge_maker("jason")
 
 def batch_badge_creator(name)
-  name.collect {|name|  "Hello my name is #{name}."}
+  name.collect {|name|  "Hello, my name is #{name}."}
 end
 #batch_badge_creator(names)
 
