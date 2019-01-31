@@ -13,6 +13,6 @@ end
 
 def assign_rooms(name)
   name.collect.with_index do |name, index|
-    "Hello, #{name}! You'll be assigned to room #{index}!"
+    puts "Hello, #{name}! You'll be assigned to room #{index}!"
 end
 assign_rooms(names)
